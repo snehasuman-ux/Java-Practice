@@ -9,10 +9,12 @@ public class Main{
   manager.addStudent(S1);
     manager.addStudent(S2);
 
-  manager.displayStudents();
-    System.out.println("Searching Student: "+ manager.searchStudent(101));
-    System.out.println("Deleting Student:" + manager.deleteStudent(102));
+  manager.displayStudent();
+    System.out.println("Searching Student: ");
+    manager.searchStudent(101);
+    System.out.println("Deleting Student:" );
+    manager.deleteStudent(102);
     System.out.println("Students after deletion:");
-    manager.displayStudents();
+    manager.displayStudent();
   }
 }
